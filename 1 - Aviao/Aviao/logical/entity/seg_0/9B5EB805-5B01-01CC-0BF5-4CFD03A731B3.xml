@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B5EB805-5B01-01CC-0BF5-4CFD03A731B3" name="Aeroporto">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:16:43 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<engineerTo>
+<item key="E992B159-6441-0E4A-8800-F744EE3D5624" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cód.aéreo" id="D1830996-456F-A014-B273-525C67243A4A">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:17:21 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<engineerTo>
+<item key="E992B159-6441-0E4A-8800-F744EE3D5624" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="962D3929-B6E2-7229-48D1-B7D5449A12B5">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:17:30 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<engineerTo>
+<item key="E992B159-6441-0E4A-8800-F744EE3D5624" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cidade" id="69231AA9-707A-76BE-2A69-71320AE0F53C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:17:34 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<engineerTo>
+<item key="E992B159-6441-0E4A-8800-F744EE3D5624" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="C113158F-C5E6-A92A-E353-DC32CC700B61">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:17:40 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<engineerTo>
+<item key="E992B159-6441-0E4A-8800-F744EE3D5624" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

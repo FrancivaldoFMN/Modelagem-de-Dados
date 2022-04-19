@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDEE3617-C20B-5D38-50C9-8A810541CAB0" name="Aeroporto">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:22:30 UTC</createdTime>
+<generatorID>9B5EB805-5B01-01CC-0BF5-4CFD03A731B3</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cód_aéreo" id="EBAB2A43-6C5A-782C-28E5-907FD62676B4">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:22:30 UTC</createdTime>
+<generatorID>D1830996-456F-A014-B273-525C67243A4A</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="836B07C8-EC4B-868F-8E61-092721EF2224">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:22:30 UTC</createdTime>
+<generatorID>962D3929-B6E2-7229-48D1-B7D5449A12B5</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidade" id="3F88B1BC-5D54-46F0-EDA8-778D93ACFBA9">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:22:30 UTC</createdTime>
+<generatorID>69231AA9-707A-76BE-2A69-71320AE0F53C</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="56075FBC-A028-4B8A-BAA0-373B53D6CC37">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:22:30 UTC</createdTime>
+<generatorID>C113158F-C5E6-A92A-E353-DC32CC700B61</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
