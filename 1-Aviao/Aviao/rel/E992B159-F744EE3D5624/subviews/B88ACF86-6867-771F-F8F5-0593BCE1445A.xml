@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="B88ACF86-6867-771F-F8F5-0593BCE1445A">
+<createdBy>Francivaldo</createdBy>
+<modifiedBy>Francivaldo</modifiedBy>
+<createdTime>2022-04-19 23:12:45 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B722F7D0-FA49-F2EE-00D9-29D1D43D1005" otype="Table" vid="17D375F9-D344-037C-2D65-70453D963A49">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="276" y="163" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BDEE3617-C20B-5D38-50C9-8A810541CAB0" otype="Table" vid="96ADA53D-7F10-6AC7-B0F9-B2F9FBCF79A7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="63" y="159" width="170" height="110"/>
+</OView>
+</objectViews>
+<diagramViews>
+<DiagramView class="oracle.dbtools.crest.swingui.TVDiagramView" oid="CC08F44A-31B3-9B90-9457-CC07225A3C29" dpv_id="F2E1B20C-2371-024A-273F-25533FD233DD" vid="F5B9EAB3-72F1-48B5-606E-491F3A06B868">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="127" y="29" width="140" height="100"/>
+<rdiagramName>Logical</rdiagramName>
+<rdiagramID>F2E1B20C-2371-024A-273F-25533FD233DD</rdiagramID>
+</DiagramView>
+<DiagramView class="oracle.dbtools.crest.swingui.TVDiagramView" oid="DC82F995-20F1-EAFA-C451-8B3D1E70657A" dpv_id="F2E1B20C-2371-024A-273F-25533FD233DD" vid="4C7256AC-66AA-E866-2434-EB86054253F3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="294" y="28" width="140" height="100"/>
+<rdiagramName>Logical</rdiagramName>
+<rdiagramID>F2E1B20C-2371-024A-273F-25533FD233DD</rdiagramID>
+</DiagramView>
+</diagramViews>
+</Diagram>
