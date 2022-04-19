@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A521656-22B6-5C03-91C2-834A4986AB9B" name="Empregado">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:41:50 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<engineerTo>
+<item key="3FF64574-1A64-6736-D537-65922980B056" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPF" id="95B2F942-27C0-357B-8355-E426C0CAAB7F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:45:46 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<engineerTo>
+<item key="3FF64574-1A64-6736-D537-65922980B056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB360F75-9CC2-3E2B-529E-67EAA4C6C16C" name="Empregado PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:46:19 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<engineerTo>
+<item key="3FF64574-1A64-6736-D537-65922980B056" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95B2F942-27C0-357B-8355-E426C0CAAB7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

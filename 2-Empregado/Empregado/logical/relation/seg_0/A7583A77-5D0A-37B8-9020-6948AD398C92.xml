@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Empregado_Possui_Dependentes" directorySegmentName="seg_0" id="A7583A77-5D0A-37B8-9020-6948AD398C92">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:44:54 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<engineerTo>
+<item key="3FF64574-1A64-6736-D537-65922980B056" value="true"/>
+</engineerTo>
+<sourcePk>DB360F75-9CC2-3E2B-529E-67EAA4C6C16C</sourcePk>
+<targetPk>566C5B1C-94CE-DF2A-59B5-8C460F3A77F9</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4A521656-22B6-5C03-91C2-834A4986AB9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DCFE84EB-8C5A-9FD4-376B-E090F8C39E8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

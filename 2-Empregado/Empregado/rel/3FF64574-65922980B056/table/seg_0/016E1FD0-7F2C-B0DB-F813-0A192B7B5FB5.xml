@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="016E1FD0-7F2C-B0DB-F813-0A192B7B5FB5" name="Empregado">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<generatorID>4A521656-22B6-5C03-91C2-834A4986AB9B</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="88D844AF-7A9B-56B2-DCE4-1657BB0D0B36">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<generatorID>95B2F942-27C0-357B-8355-E426C0CAAB7F</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43A754E5-92C4-2FC8-B6E5-5B9F6DEE6EAE" name="Empregado_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<generatorID>DB360F75-9CC2-3E2B-529E-67EAA4C6C16C</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88D844AF-7A9B-56B2-DCE4-1657BB0D0B36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="585A20FD-3490-C9F5-D6F6-8812BB2ACD3B" name="Empregado_Possui_Dependentes">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empregado_CPF" id="0C20BD97-F951-25B9-1DD5-7B7CF619E852">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54CF2486-2040-9BF9-E30F-265EEA015D73" referredColumn="88D844AF-7A9B-56B2-DCE4-1657BB0D0B36"/>
+</associations>
+</Column>
+<Column name="Dependentes_Nome_Dependente" id="F7DF26E5-A11F-F7C0-0AA8-09B4A5F4B8AE">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4322E736-38F8-6416-84F7-5A82934B31B5" referredColumn="C1C5B51B-C1E7-19C4-8D07-67674781E514"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC56D892-F0D6-2708-E5BF-D934B2136472" name="Empregado_Possui_Dependentes_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C20BD97-F951-25B9-1DD5-7B7CF619E852"/>
+<colUsage columnID="F7DF26E5-A11F-F7C0-0AA8-09B4A5F4B8AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="035B989C-29BF-76A9-3E7A-1AF55250A5E5" name="Empregado_Possui_Dependentes_Empregado_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<generatorID>A7583A77-5D0A-37B8-9020-6948AD398C92</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C20BD97-F951-25B9-1DD5-7B7CF619E852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC727BBA-3F68-8C7F-4EF5-40A43139056F" name="Empregado_Possui_Dependentes_Dependentes_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:51:46 UTC</createdTime>
+<generatorID>A7583A77-5D0A-37B8-9020-6948AD398C92</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7DF26E5-A11F-F7C0-0AA8-09B4A5F4B8AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
