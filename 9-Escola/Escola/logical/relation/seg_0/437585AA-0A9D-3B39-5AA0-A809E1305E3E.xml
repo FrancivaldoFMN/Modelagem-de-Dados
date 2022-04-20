@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sala_Possui_Turma" directorySegmentName="seg_0" id="437585AA-0A9D-3B39-5AA0-A809E1305E3E">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:47:51 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="82D7633B-B404-BAF4-3DC6-A0FAD8DBD9D1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AA527993-3DB1-ACA7-8E0B-AA06AA9616DE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4ADD6176-C473-F49B-BE4C-DF65425AFBE9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

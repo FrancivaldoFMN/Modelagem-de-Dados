@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8523E328-D681-385B-4DB9-E62494960EAB" name="Medico">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:10:40 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CRM" id="2109F9C7-D3B3-2F25-F5FD-CFFC16858F1A">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:10:46 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="343BC0DA-5CF3-6C81-5765-B65DAFA3CF6C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:10:55 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="1961C2FB-00D0-8B1E-9030-90A03352C26B">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:11:04 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Especialidade" id="537E7E03-9578-E1E4-C238-684BEB11A650">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:11:13 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

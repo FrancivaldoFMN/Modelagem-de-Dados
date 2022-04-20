@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BA6337F-B119-7963-8575-12EDF1416BCF" name="Notas">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>67ACB2BE-4684-A6BE-28D4-8DB226B4A997</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Aluno_Aluno_ID" id="76F569C2-DC7C-C0CF-4AEF-236B029B1B1A">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD039D86-FE17-79A7-058A-85D236DD2452" referredColumn="2DC78850-4883-0FAC-F5E1-EB470A9CF025"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3376A702-DD69-60D8-F93D-F973A2603888" name="Notas_Aluno_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>5979827C-1D40-995A-690A-91B9298B24A6</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76F569C2-DC7C-C0CF-4AEF-236B029B1B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

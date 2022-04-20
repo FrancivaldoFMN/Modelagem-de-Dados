@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="802A959C-3FDD-11BA-EF86-483C6EEC4495" name="Produto">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:16:35 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="22402D13-E0F0-8A87-91B9-14AB08E5BD7A">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:16:42 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome do Produto" id="43C2D498-AF39-AC8A-E75E-63A81ED1EBBF">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:16:50 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria" id="099C92BD-2F8C-F8E9-C5AA-D41B93861E8B">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:17:05 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preço" id="A289F0D3-5713-1565-482B-589111A2FC41">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:17:50 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,5,5</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

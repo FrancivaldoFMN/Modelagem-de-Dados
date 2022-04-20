@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F64C1F1-F903-1144-6627-37C0367304C0" name="Medico">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>8523E328-D681-385B-4DB9-E62494960EAB</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CRM" id="D905F32E-3C66-365E-106B-EE074B436B16">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>2109F9C7-D3B3-2F25-F5FD-CFFC16858F1A</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="3746B49D-0FEB-EAA7-6F83-47F7662B0291">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>343BC0DA-5CF3-6C81-5765-B65DAFA3CF6C</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="68B0C820-79A1-F45E-3141-D8A5A55A9AD9">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>1961C2FB-00D0-8B1E-9030-90A03352C26B</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especialidade" id="FBE9D602-DC50-5A97-D739-0267FC8A1167">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>537E7E03-9578-E1E4-C238-684BEB11A650</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bebê_Bebê_ID" id="26D6FBC8-515F-282F-3405-8734B9F05829">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8EBC49D-C90A-70A9-2669-4A2074034B3C" referredColumn="8E00A90F-1EB1-56F3-9B52-5B3B8FF9FED7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87E2C9AE-9383-925E-E520-141ADB61171A" name="Medico__IDX">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A3D1B0E6-0179-191B-8323-C940DFEAED43</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="26D6FBC8-515F-282F-3405-8734B9F05829"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="944FACA9-67EB-6F5E-6E0B-58013894F799" name="Medico_Bebê_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>A3D1B0E6-0179-191B-8323-C940DFEAED43</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26D6FBC8-515F-282F-3405-8734B9F05829"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

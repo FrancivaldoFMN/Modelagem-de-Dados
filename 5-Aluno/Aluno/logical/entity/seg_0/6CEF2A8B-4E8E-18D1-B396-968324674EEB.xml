@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CEF2A8B-4E8E-18D1-B396-968324674EEB" name="Aluno">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 01:59:49 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<engineerTo>
+<item key="164B8F91-907F-1C9D-57E8-F4DB869032A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="E3808175-28E6-1D2F-7D9F-67E21B8B1A16">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:00:27 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<engineerTo>
+<item key="164B8F91-907F-1C9D-57E8-F4DB869032A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data de Nascimento" id="F8881F5F-9935-2745-F885-3A0F788272C3">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:00:39 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<engineerTo>
+<item key="164B8F91-907F-1C9D-57E8-F4DB869032A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="46CCA5E4-3F18-AE52-D65D-5AE037B2A9F0">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:00:55 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<engineerTo>
+<item key="164B8F91-907F-1C9D-57E8-F4DB869032A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

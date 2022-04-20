@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACEED6DB-E4A2-0C15-2A8D-61AACB77AE7D" name="Curso">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>26D7AF19-37C2-5923-2FA9-0F9104886F29</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Descrição" id="0D3865A9-D3CD-81B7-BB64-C298B4390D4F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>040D383F-6070-5002-5F96-7A92CB592A62</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Portaria" id="D606903A-C221-B28B-9379-70DB029AC700">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>F8B56F14-A9DD-7A48-0A9A-51B0ECA99975</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_ID" id="BE9B0AD6-CEA9-A6AF-3817-9B4D33A6EAFA">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Matricula_Matricula_ID" id="E35FE592-A26D-F861-30D6-7833CCA7CF64">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A346FF4-835A-D94A-DDC3-9428D1435909" referredColumn="0A911880-3495-73CC-3FD8-14262F8A0B75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7DDF51A-6DD0-6A0E-12FF-91604A483C4A" name="Curso_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BE9B0AD6-CEA9-A6AF-3817-9B4D33A6EAFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D1201A6-12AE-B1E8-E9DD-36D02E138A0F" name="Curso_Matricula_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>2F25A7D6-BF18-9111-6C4B-D50E5EC42799</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E35FE592-A26D-F861-30D6-7833CCA7CF64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

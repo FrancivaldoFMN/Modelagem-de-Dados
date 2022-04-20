@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05ECD845-C477-E300-5AE2-2A17BB4E5542" name="Inquilinos">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<generatorID>6BE5FCA1-81D9-F8F6-9CB1-6F127061D53D</generatorID>
+<ownerDesignName>Imovel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Inquilinos_ID" id="17EE7D70-7607-BAE5-EA1B-0A67D9150EE9">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Corretor_Corretor_ID" id="31FCC06C-7251-71B4-2676-5045FA3F920A">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2B88511-0C00-6857-3A34-0D49BB981C23" referredColumn="64230B45-C64E-84E6-B601-37ADA9771137"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="477D4C6E-72A1-34E6-D6F2-9270D0003404" name="Inquilinos_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="17EE7D70-7607-BAE5-EA1B-0A67D9150EE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B075CC27-12FD-23AE-1FAE-BFF9431C00EF" name="Inquilinos_Corretor_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<generatorID>34CE0654-4E95-EFC4-96FE-0CEA7C86CAF6</generatorID>
+<ownerDesignName>Imovel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31FCC06C-7251-71B4-2676-5045FA3F920A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

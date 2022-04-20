@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17AC7823-2A0C-B4CE-3890-7E5B5526CA98" name="Mâe">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>780CC478-2413-AF2B-A7DF-6D1A344CB60F</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="D82C22A9-27F1-D43E-857D-B2AAF19C40BF">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>88E3D56B-5820-3E03-6CE3-48F748DBC6BF</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="31627BE9-7816-10B8-2B2C-1830C4901480">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>57A8C92A-709A-6AD2-4BD5-4B30A5CA8C6B</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="B9FA6F50-3B26-1978-2BA7-7808BB866C9D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>FF84109A-6178-5026-727E-600BB6DC7696</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_de_Nascimento" id="D3FC8A93-A93A-DCAB-B7D2-1498A5F562FF">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>48DD898F-CC15-FFA9-F983-FC9858E34E15</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mâe_ID" id="BBCF1EAA-92B8-6FD2-A31E-7A9D66BF4482">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97E8266E-EF77-9468-A4EC-0647D1A2C846" name="Mâe_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BBCF1EAA-92B8-6FD2-A31E-7A9D66BF4482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8112423F-1FF8-38B3-18DA-AB18AA805709" mainViewID="7D1D14E1-D5E5-FF88-703B-823ADDF530C6">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:49:41 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

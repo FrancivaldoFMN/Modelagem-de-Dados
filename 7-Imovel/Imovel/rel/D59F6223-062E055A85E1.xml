@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="D59F6223-3207-8A4B-5C07-062E055A85E1" mainViewID="30C3011C-D70C-2640-1BB5-51473FE55AF6">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:33:33 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

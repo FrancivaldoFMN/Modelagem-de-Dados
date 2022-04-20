@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3919750C-86CC-D1C2-EFDF-9B42180C7CA0" containerWithKeyObject="E2701CEC-E91F-DA9C-BA4E-FBF4F15E9522" localFKIndex="3C2DDE88-266F-9EB8-27DD-5D49305AAF3A" name="Autores_Escrevem_Livros_Autores_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<generatorID>51249666-1496-F908-651F-27D02B2D6FD7</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<referredTableLongName>Autores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D5BA65C9-EA89-13A5-8D01-1C3B1E3B6373</referredTableID>
+<keyObject>9B912E64-F4F4-4E33-D889-E3C0FA50679D</keyObject>
+<referredKeyID>9B912E64-F4F4-4E33-D889-E3C0FA50679D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Autores_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Notas_Pertencem_Provas" directorySegmentName="seg_0" id="9F08950D-FE78-E398-C345-0A231B846702">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:41:15 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<engineerTo>
+<item key="88294974-1992-850E-7825-6E4C3B683F9C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C757675B-7187-4DCF-7469-99CEE8939CE3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>492F375C-5D20-03C2-7D49-A3E9410380CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

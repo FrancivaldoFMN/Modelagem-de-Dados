@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Inquilinos_Alugam_Imoveis" directorySegmentName="seg_0" id="C406B450-C9EE-7FF7-4861-F9759A325934">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:05 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<engineerTo>
+<item key="D59F6223-3207-8A4B-5C07-062E055A85E1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6BE5FCA1-81D9-F8F6-9CB1-6F127061D53D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6E7ABFCE-D76C-06F4-1DDB-EAC0956E9BFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

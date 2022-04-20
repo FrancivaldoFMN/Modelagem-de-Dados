@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Imovel" id="98AE859C-43BD-B0E7-FD91-4F17C2FC9600" version="3.5">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:33:29 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>98AE859C-43BD-B0E7-FD91-4F17C2FC9600</designId>
+</OSDM_Design>

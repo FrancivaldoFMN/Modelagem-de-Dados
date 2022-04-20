@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Bebe" id="32B945F3-972F-F339-499E-52243605F173" version="3.5">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:07:36 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>32B945F3-972F-F339-499E-52243605F173</designId>
+</OSDM_Design>

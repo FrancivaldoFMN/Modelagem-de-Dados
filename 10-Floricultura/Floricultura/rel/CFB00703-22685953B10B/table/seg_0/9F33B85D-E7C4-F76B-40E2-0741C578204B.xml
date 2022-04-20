@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F33B85D-E7C4-F76B-40E2-0741C578204B" name="Clientes_Compra_Produtos">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_Clientes_ID" id="9200FAC9-2932-3B7D-09B1-B6EFDC678A1C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90339886-4769-13E0-7251-621E03963089" referredColumn="481A4798-53B3-CB40-D529-E499D1CD22E7"/>
+</associations>
+</Column>
+<Column name="Produtos_Produtos_ID" id="C4B85CF1-046E-6D80-9946-2131F256DFDC">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21BA814D-C04B-FB06-8551-6763288DC355" referredColumn="ABDA44B4-F10A-4DD1-E033-D7E17F5BF83F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5104EB1F-4985-10B6-D294-27BD57CAD4FF" name="Clientes_Compra_Produtos_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9200FAC9-2932-3B7D-09B1-B6EFDC678A1C"/>
+<colUsage columnID="C4B85CF1-046E-6D80-9946-2131F256DFDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D23C9A0E-2E2F-3FE2-A5F1-25F142260F65" name="Clientes_Compra_Produtos_Clientes_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>52D67D06-BB42-65ED-937D-4DBB624FE3FD</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9200FAC9-2932-3B7D-09B1-B6EFDC678A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FCC5C2A-C1E2-139A-CAE7-4FE9E3023201" name="Clientes_Compra_Produtos_Produtos_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>52D67D06-BB42-65ED-937D-4DBB624FE3FD</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4B85CF1-046E-6D80-9946-2131F256DFDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

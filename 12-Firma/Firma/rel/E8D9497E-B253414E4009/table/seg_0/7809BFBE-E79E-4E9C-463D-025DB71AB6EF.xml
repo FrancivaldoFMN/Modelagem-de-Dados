@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7809BFBE-E79E-4E9C-463D-025DB71AB6EF" name="Cliente">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>9A668DCA-2A94-7A50-60B8-39CD5E777939</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Código" id="2F0BDDFD-9F1A-8DEF-541C-B879BD6579BA">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>8DF0645B-567C-CB64-2478-0C65582372DA</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="C5DB9CF2-BD8E-074C-12F1-137D50D3EE71">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>BFDB6F55-89FA-EF53-978B-BA8B6C1C2963</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="6CD7D955-2C00-162A-6B5B-A4BE222B5665">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>AF2BF709-176D-0EE9-456C-E2759F219056</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="DDE78B66-D765-0930-9DEE-37D20397139C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>9A501E5B-4E04-F6BD-32CF-A4D7DC132AE7</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="822A5CBA-9094-EC7D-F2E0-7B3C3F633EBD">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>4CA5535B-6E9D-0CFD-48BA-2B2484174D65</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Limite_de_Credito" id="8E5CB7FD-11CB-4A87-0B97-7D47DB101384">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>DDB70A56-4F82-8ACD-D935-353ED0312DA0</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID" id="55656547-ABD7-1249-2F92-33F635158F16">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7636CC64-EE81-8301-239A-A42FEE371F5B" name="Cliente_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="55656547-ABD7-1249-2F92-33F635158F16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7F2955E-7174-1C92-6D2A-6DDAD147A71B" name="Bebê">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>9E3B30B8-5397-673B-1E67-0BDBC5AC7687</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Medico" id="BFD96CC7-80D8-C214-DEFA-7247EB67BD4C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>DBCF327F-16F4-892B-8872-0ED173F3F675</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="20F31EF8-2499-58C6-D624-C9CB9E05E7D0">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>3FDC2465-75EE-3FCF-ED70-7D6FAE10BE5D</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mãe" id="9D3CE849-9C5C-300A-7FF3-CDD6D521AD1E">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>4E45BD19-BD56-4F03-EA5D-3974EEEA313F</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Nascimento" id="CEE79606-1842-5680-FEB3-A2866D34A150">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>CA040A53-5086-EFC0-3855-AA20D83F41DC</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Altura" id="E8DB0A9F-9B53-1234-0A57-85CECE27FF4C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>D263EEDC-3EC6-B7EC-61FE-CC81974A3ABB</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peso_Nascimento" id="D0F1A320-D04B-675B-D76F-3AD859E1A500">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>5BEE9810-268E-CBE1-ADE2-FEF8970D3B0C</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,4,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bebê_ID" id="8E00A90F-1EB1-56F3-9B52-5B3B8FF9FED7">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Mâe_Mâe_ID" id="59931CB7-286F-91CD-87ED-7A78869A161C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8273B43-F0EE-A29E-EC0D-37DF64A7A1E1" referredColumn="BBCF1EAA-92B8-6FD2-A31E-7A9D66BF4482"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="267E027C-307B-22C9-BCAC-2A812EACCAFE" name="Bebê_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8E00A90F-1EB1-56F3-9B52-5B3B8FF9FED7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4C4CB42-1056-8090-224E-3220A41A0864" name="Bebê_Mâe_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:13:32 UTC</createdTime>
+<generatorID>6DCA45F1-DF9A-6F15-26E3-5B05B238E85C</generatorID>
+<ownerDesignName>Bebe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59931CB7-286F-91CD-87ED-7A78869A161C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

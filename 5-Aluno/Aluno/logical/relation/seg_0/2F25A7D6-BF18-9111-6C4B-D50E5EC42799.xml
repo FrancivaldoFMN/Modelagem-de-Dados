@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Matricula_Pertence_Curso" directorySegmentName="seg_0" id="2F25A7D6-BF18-9111-6C4B-D50E5EC42799">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:04:40 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<engineerTo>
+<item key="164B8F91-907F-1C9D-57E8-F4DB869032A2" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B60F8973-22F4-E203-BC75-1D6AA7AB5CF8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>26D7AF19-37C2-5923-2FA9-0F9104886F29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

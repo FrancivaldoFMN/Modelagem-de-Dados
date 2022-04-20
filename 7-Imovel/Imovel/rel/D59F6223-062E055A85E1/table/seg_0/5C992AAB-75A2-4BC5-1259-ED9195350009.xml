@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C992AAB-75A2-4BC5-1259-ED9195350009" name="Imoveis">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<generatorID>6E7ABFCE-D76C-06F4-1DDB-EAC0956E9BFE</generatorID>
+<ownerDesignName>Imovel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Inquilinos_Inquilinos_ID" id="EA9718FC-99F6-21F5-224B-0DB96F34C155">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7A1DEDD-E57F-1721-CCC8-7DFF670E8CF1" referredColumn="17EE7D70-7607-BAE5-EA1B-0A67D9150EE9"/>
+</associations>
+</Column>
+<Column name="Proprietario_Proprietario_ID" id="9581AD6E-BCF2-CA95-1F25-7A8E7F682A2F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC341BFC-81A1-D9F0-25F7-40310DA07624" referredColumn="9936B4ED-583C-DC77-7473-2FBEE63F232D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57B4C26D-8A4D-3FF2-E831-C3E58B577B08" name="Imoveis__IDX">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C406B450-C9EE-7FF7-4861-F9759A325934</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EA9718FC-99F6-21F5-224B-0DB96F34C155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E9AA100-0125-5E76-3D8F-56B8C4DB5EE0" name="Imoveis_Inquilinos_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<generatorID>C406B450-C9EE-7FF7-4861-F9759A325934</generatorID>
+<ownerDesignName>Imovel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9718FC-99F6-21F5-224B-0DB96F34C155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E18DE86D-5E53-117F-B475-2C03C56653CB" name="Imoveis_Proprietario_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:36:30 UTC</createdTime>
+<generatorID>BC43EEA3-9B00-A8B4-8BDF-22E842DDF08B</generatorID>
+<ownerDesignName>Imovel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9581AD6E-BCF2-CA95-1F25-7A8E7F682A2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2701CEC-E91F-DA9C-BA4E-FBF4F15E9522" name="Autores_Escrevem_Livros">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Autores_Autores_ID" id="773B801A-A40B-779E-8C3A-F228F22908A9">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3919750C-86CC-D1C2-EFDF-9B42180C7CA0" referredColumn="457C3B8B-EEDC-1BB8-6549-C5F874A6006C"/>
+</associations>
+</Column>
+<Column name="Livros_Livros_ID" id="4C17C6A8-B890-DAD8-B0B6-2DDDB687ED10">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85CA6970-0236-82E1-1CBC-3B427F5EA057" referredColumn="08A83B89-7A6D-9EF8-178E-76BC264D3AA9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAA7276C-7E12-B02B-FF34-B9456248F7E1" name="Autores_Escrevem_Livros_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="773B801A-A40B-779E-8C3A-F228F22908A9"/>
+<colUsage columnID="4C17C6A8-B890-DAD8-B0B6-2DDDB687ED10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C2DDE88-266F-9EB8-27DD-5D49305AAF3A" name="Autores_Escrevem_Livros_Autores_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<generatorID>51249666-1496-F908-651F-27D02B2D6FD7</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="773B801A-A40B-779E-8C3A-F228F22908A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D57C8FE9-0714-06DA-7BEF-0D806F700CAE" name="Autores_Escrevem_Livros_Livros_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<generatorID>51249666-1496-F908-651F-27D02B2D6FD7</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C17C6A8-B890-DAD8-B0B6-2DDDB687ED10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

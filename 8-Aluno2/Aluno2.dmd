@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Aluno2" id="7371CA86-9AAB-E6FE-FDC6-5C10A37C2163" version="3.5">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:39:15 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7371CA86-9AAB-E6FE-FDC6-5C10A37C2163</designId>
+</OSDM_Design>

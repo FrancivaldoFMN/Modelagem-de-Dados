@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Clientes_Compra_Produtos" directorySegmentName="seg_0" id="52D67D06-BB42-65ED-937D-4DBB624FE3FD">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:58:58 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="CFB00703-0C28-A80C-DEA4-22685953B10B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6CC92260-0AAF-99DE-CDB1-3CCA1C6CB0B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>977D8B94-06F5-357C-CF2A-94468AA1A72C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

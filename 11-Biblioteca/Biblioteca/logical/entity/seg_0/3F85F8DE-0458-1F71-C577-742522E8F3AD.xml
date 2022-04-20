@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F85F8DE-0458-1F71-C577-742522E8F3AD" name="Livros">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:06:03 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="7F9CB960-A687-91EA-226D-0B78C8D93D84" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN" id="896E5604-5C8A-5C88-75E4-F81B2E6CC5E5">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:06:09 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="7F9CB960-A687-91EA-226D-0B78C8D93D84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Titulo" id="998C7532-9928-EBBF-00B3-5E8A4FD0F30F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:06:27 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="7F9CB960-A687-91EA-226D-0B78C8D93D84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ano" id="56F14A65-F390-6D21-FC93-3DF83DF406F6">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:06:40 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="7F9CB960-A687-91EA-226D-0B78C8D93D84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Editora" id="8CD85306-10C2-09E0-1863-7734EA8491DA">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:06:51 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="7F9CB960-A687-91EA-226D-0B78C8D93D84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Autor" id="961CF313-D41D-0430-1A3E-57B95C39CABB">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:07:02 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="7F9CB960-A687-91EA-226D-0B78C8D93D84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

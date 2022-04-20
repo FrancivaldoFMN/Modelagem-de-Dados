@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Aluno_Possui_Matricula" directorySegmentName="seg_0" id="8C886677-CF81-FBDD-56B9-36321CB6D896">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:41:37 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<engineerTo>
+<item key="88294974-1992-850E-7825-6E4C3B683F9C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C58822DB-F28A-BCCE-6DE6-19F8C1160B7A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>493D511E-00DA-4709-667D-96941A53E540</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

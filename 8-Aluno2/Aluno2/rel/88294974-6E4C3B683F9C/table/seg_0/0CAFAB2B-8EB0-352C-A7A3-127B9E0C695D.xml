@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CAFAB2B-8EB0-352C-A7A3-127B9E0C695D" name="Alunos">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<generatorID>C58822DB-F28A-BCCE-6DE6-19F8C1160B7A</generatorID>
+<ownerDesignName>Aluno2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Alunos_ID" id="BB1604D1-37B0-AB73-E1BA-DFA8FD18D70A">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EB90708-C2BF-B441-CBB4-28DBED84F1B4" name="Alunos_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BB1604D1-37B0-AB73-E1BA-DFA8FD18D70A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

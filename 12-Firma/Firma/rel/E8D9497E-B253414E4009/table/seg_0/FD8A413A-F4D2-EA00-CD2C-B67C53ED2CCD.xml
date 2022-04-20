@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD8A413A-F4D2-EA00-CD2C-B67C53ED2CCD" name="Pedido">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>4BE79B90-BA8C-3FE3-E64C-9179733C48B5</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Número" id="18CB918E-4D19-CF36-E702-8A0B0D407EA6">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>07C66429-4E6A-4D39-4AE1-872EFD12B816</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_ID" id="11810D1A-148B-59AF-7D38-B777F74C9D7C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Cliente_Cliente_ID" id="5FCEBAA3-16F1-5077-D4A6-7EA7B7A0BA87">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FC4F72F-893F-6061-C81C-A8CFC8BA6781" referredColumn="55656547-ABD7-1249-2F92-33F635158F16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="854E10D5-7F19-5C71-635C-41F7196F679D" name="Pedido_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="11810D1A-148B-59AF-7D38-B777F74C9D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B966924-C959-0FCA-2464-B887EBBB1A64" name="Pedido_Cliente_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>54FD396E-E18B-7477-C985-F7F563FE544E</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FCEBAA3-16F1-5077-D4A6-7EA7B7A0BA87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

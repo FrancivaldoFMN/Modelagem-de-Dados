@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A668DCA-2A94-7A50-60B8-39CD5E777939" name="Cliente">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:18:19 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Código" id="8DF0645B-567C-CB64-2478-0C65582372DA">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:18:26 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="BFDB6F55-89FA-EF53-978B-BA8B6C1C2963">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:18:39 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="AF2BF709-176D-0EE9-456C-E2759F219056">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:18:51 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="9A501E5B-4E04-F6BD-32CF-A4D7DC132AE7">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:19:15 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="4CA5535B-6E9D-0CFD-48BA-2B2484174D65">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:19:32 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Limite de Credito" id="DDB70A56-4F82-8ACD-D935-353ED0312DA0">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:19:54 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<engineerTo>
+<item key="E8D9497E-2B9C-DAC3-A10D-B253414E4009" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

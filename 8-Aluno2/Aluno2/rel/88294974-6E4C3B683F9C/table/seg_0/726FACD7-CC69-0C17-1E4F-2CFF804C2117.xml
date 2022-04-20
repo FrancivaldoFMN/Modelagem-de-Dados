@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="726FACD7-CC69-0C17-1E4F-2CFF804C2117" name="Curso">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<generatorID>B0E36D04-00C2-5E5E-AAC3-4A1370B70D2B</generatorID>
+<ownerDesignName>Aluno2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Curso_ID" id="BB61DE7A-8ECA-1011-C8EB-078D3BD1CEBE">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Matricula_Matricula_ID" id="B6DFC74F-2F7A-B4C0-0CBB-6B643E9CCA81">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AA96B03-9610-377D-833B-A0F0A32E0130" referredColumn="2E3A9DA3-641B-1ED5-DBA0-C245442093C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A576AD00-3D25-898A-AFC6-33D5DE61205B" name="Curso_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BB61DE7A-8ECA-1011-C8EB-078D3BD1CEBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA86659E-AD87-DE8D-DD00-EC9F0E6347E9" name="Curso_Matricula_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<generatorID>E22A07C0-B855-02A7-3601-C1A2E792C95D</generatorID>
+<ownerDesignName>Aluno2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6DFC74F-2F7A-B4C0-0CBB-6B643E9CCA81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

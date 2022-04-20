@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3AA691F-C7D3-8CDD-2BF2-E1B87EBA7A67" name="Categoria">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<generatorID>943C5590-753E-B9B0-F4D3-F63D638A32E6</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Código_da_Categoria" id="C06072CA-0BF2-721B-5455-649D83178ADB">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<generatorID>AA2FD895-552A-5E8A-2F77-F18E1AA30F31</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descrição" id="705BC95D-1FD0-D3B0-605D-A2662AC2D365">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<generatorID>BC9AF53C-12D7-38E4-C708-208122B2B764</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_ID" id="45650878-0D2E-EC75-7707-679268107627">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E840B4BB-2057-2ACE-5E79-3424271479AC" name="Categoria_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="45650878-0D2E-EC75-7707-679268107627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

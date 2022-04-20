@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="977D8B94-06F5-357C-CF2A-94468AA1A72C" name="Produtos">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:54:18 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="CFB00703-0C28-A80C-DEA4-22685953B10B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome do Produto" id="0FF60B9B-6D56-74EA-9A48-22D4F8506113">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:54:31 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="CFB00703-0C28-A80C-DEA4-22685953B10B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="5464C068-C0B5-6349-A00A-6DDDC25C0E72">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:54:43 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="CFB00703-0C28-A80C-DEA4-22685953B10B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preço" id="A4D352D1-980F-98EE-95F9-0FEC4CE833CF">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:55:57 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="CFB00703-0C28-A80C-DEA4-22685953B10B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,5,5</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantidade" id="268E8544-D0FE-16FA-EA6A-36C52390BD93">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:56:39 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="CFB00703-0C28-A80C-DEA4-22685953B10B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

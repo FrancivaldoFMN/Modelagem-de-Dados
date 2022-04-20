@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5E63F9E-119F-A239-9475-97BFF65595E6" name="Disciplina">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>17668A55-E84C-B47B-EB6E-E6E158051728</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Descrição" id="E8C71A57-F89B-7496-9896-E06CFD58B9C5">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>82B6D8DE-9EF3-5135-8A13-039CD973D40A</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ementa" id="768C707F-900B-C3DA-A3EC-AF32012BD2E7">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>8F305C45-0AA1-D77F-6ED2-BA0C90812F5E</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_Curso_ID" id="FAB3EDD4-D5DF-8EE3-EA3A-224DC3A5E54A">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<ownerDesignName>Aluno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14EDC8D7-EE50-787D-7D3B-2856D0A8AEFB" referredColumn="BE9B0AD6-CEA9-A6AF-3817-9B4D33A6EAFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89C9E3EB-527D-371C-FA87-7167A33C666B" name="Disciplina_Curso_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:06:47 UTC</createdTime>
+<generatorID>AB5A79B8-B605-8884-A613-2D8318622DF5</generatorID>
+<ownerDesignName>Aluno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAB3EDD4-D5DF-8EE3-EA3A-224DC3A5E54A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

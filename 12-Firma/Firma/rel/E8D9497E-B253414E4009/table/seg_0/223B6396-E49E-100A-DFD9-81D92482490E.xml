@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="223B6396-E49E-100A-DFD9-81D92482490E" name="Produto">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>802A959C-3FDD-11BA-EF86-483C6EEC4495</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="9BB1106E-9DAC-324D-FF59-8935F67D230E">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>22402D13-E0F0-8A87-91B9-14AB08E5BD7A</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome_do_Produto" id="5656D40D-95F0-F09E-6A88-3FB2BD444F2D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>43C2D498-AF39-AC8A-E75E-63A81ED1EBBF</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria" id="42ADD0BA-1E62-17D0-8330-207710B2CF67">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>099C92BD-2F8C-F8E9-C5AA-D41B93861E8B</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preço" id="68A608E2-3131-D230-1A28-C34B1C34EA0D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>A289F0D3-5713-1565-482B-589111A2FC41</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,5,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_Pedido_ID" id="54506E6C-874F-F7CC-B6B4-6375C843CA0F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<ownerDesignName>Firma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44E9111E-8258-F987-EEFA-1FA8838C1095" referredColumn="11810D1A-148B-59AF-7D38-B777F74C9D7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1285AE6-D852-3E48-F5A4-3A2206BF042B" name="Produto_Pedido_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:24:45 UTC</createdTime>
+<generatorID>5036CE0A-3CAE-8A13-037B-DA7E393C4EFD</generatorID>
+<ownerDesignName>Firma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54506E6C-874F-F7CC-B6B4-6375C843CA0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Alunos_Possui_Notas" directorySegmentName="seg_0" id="1CD19C2F-4EE2-63AC-CCF8-E15F3BC6F129">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:40:27 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<engineerTo>
+<item key="88294974-1992-850E-7825-6E4C3B683F9C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C58822DB-F28A-BCCE-6DE6-19F8C1160B7A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C757675B-7187-4DCF-7469-99CEE8939CE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

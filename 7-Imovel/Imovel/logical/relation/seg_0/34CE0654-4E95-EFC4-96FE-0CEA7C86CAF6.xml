@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Corretor_Possui_Inquilinos" directorySegmentName="seg_0" id="34CE0654-4E95-EFC4-96FE-0CEA7C86CAF6">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:35:31 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<engineerTo>
+<item key="D59F6223-3207-8A4B-5C07-062E055A85E1" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CE40EA7-F02E-F70B-7D87-F6266193E481</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BE5FCA1-81D9-F8F6-9CB1-6F127061D53D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

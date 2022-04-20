@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05E5BE8F-5990-C172-7346-D3708D60C646" name="Matricula">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<generatorID>493D511E-00DA-4709-667D-96941A53E540</generatorID>
+<ownerDesignName>Aluno2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Matricula_ID" id="2E3A9DA3-641B-1ED5-DBA0-C245442093C4">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Alunos_Alunos_ID" id="70EA6612-C97F-7284-083C-78995D525039">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB6635E2-072E-B016-6277-D1FC6CA0D446" referredColumn="BB1604D1-37B0-AB73-E1BA-DFA8FD18D70A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CE203C5-F993-6D21-A325-F3EBF1523E64" name="Matricula_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2E3A9DA3-641B-1ED5-DBA0-C245442093C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AA5519A-4C6E-049A-C452-2EA3AE04C75C" name="Matricula__IDX">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8C886677-CF81-FBDD-56B9-36321CB6D896</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="70EA6612-C97F-7284-083C-78995D525039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2ED82D8-A1F9-C7E2-7BB0-2D9131A42A0C" name="Matricula_Alunos_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:29 UTC</createdTime>
+<generatorID>8C886677-CF81-FBDD-56B9-36321CB6D896</generatorID>
+<ownerDesignName>Aluno2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70EA6612-C97F-7284-083C-78995D525039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

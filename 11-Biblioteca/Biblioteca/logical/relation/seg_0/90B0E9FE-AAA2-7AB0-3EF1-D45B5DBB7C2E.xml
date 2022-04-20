@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Categoria_Possui_Livros" directorySegmentName="seg_0" id="90B0E9FE-AAA2-7AB0-3EF1-D45B5DBB7C2E">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:10:42 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="7F9CB960-A687-91EA-226D-0B78C8D93D84" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>943C5590-753E-B9B0-F4D3-F63D638A32E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F85F8DE-0458-1F71-C577-742522E8F3AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

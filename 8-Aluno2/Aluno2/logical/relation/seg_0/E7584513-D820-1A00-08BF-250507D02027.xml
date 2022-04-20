@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Curso_Possui_Disciplinas" directorySegmentName="seg_0" id="E7584513-D820-1A00-08BF-250507D02027">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:42:07 UTC</createdTime>
+<ownerDesignName>Aluno2</ownerDesignName>
+<engineerTo>
+<item key="88294974-1992-850E-7825-6E4C3B683F9C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0E36D04-00C2-5E5E-AAC3-4A1370B70D2B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6F36963-8CF7-AD30-EE54-2DF52072A4C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B0BFC36F-41FE-036D-627A-EE0A35C28115" mainViewID="776A9A4B-50DC-AE3C-D2B9-9B2AE8C64688">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:33:30 UTC</createdTime>
+<ownerDesignName>Imovel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Professoras_Possui_Turmas" directorySegmentName="seg_0" id="729723AF-1B1F-22F4-AD91-E1CA866EC313">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:47:33 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="82D7633B-B404-BAF4-3DC6-A0FAD8DBD9D1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2BAE9870-5E64-00DF-1671-A892BBC6176C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4ADD6176-C473-F49B-BE4C-DF65425AFBE9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

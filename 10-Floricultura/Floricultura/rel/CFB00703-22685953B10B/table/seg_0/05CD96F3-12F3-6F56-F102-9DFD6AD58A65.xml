@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05CD96F3-12F3-6F56-F102-9DFD6AD58A65" name="Produtos">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>977D8B94-06F5-357C-CF2A-94468AA1A72C</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome_do_Produto" id="2B72FA94-2C89-9CAE-9C98-DC85442E36C4">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>0FF60B9B-6D56-74EA-9A48-22D4F8506113</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="E849265C-F7D8-57A2-492D-474364835E95">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>5464C068-C0B5-6349-A00A-6DDDC25C0E72</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preço" id="C40DC1CC-107E-E976-6E62-10832AD5231B">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>A4D352D1-980F-98EE-95F9-0FEC4CE833CF</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,5,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantidade" id="069E40E4-3A1A-AFF3-D903-FBB122175AD1">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>268E8544-D0FE-16FA-EA6A-36C52390BD93</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produtos_ID" id="ABDA44B4-F10A-4DD1-E033-D7E17F5BF83F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4A1F95C-A5FE-301E-1E74-2D079834783C" name="Produtos_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="ABDA44B4-F10A-4DD1-E033-D7E17F5BF83F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

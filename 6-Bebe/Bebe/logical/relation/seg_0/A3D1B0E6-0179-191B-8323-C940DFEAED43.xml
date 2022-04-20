@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Medico_Consulta_Bebê" directorySegmentName="seg_0" id="A3D1B0E6-0179-191B-8323-C940DFEAED43">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:12:49 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E3B30B8-5397-673B-1E67-0BDBC5AC7687</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8523E328-D681-385B-4DB9-E62494960EAB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

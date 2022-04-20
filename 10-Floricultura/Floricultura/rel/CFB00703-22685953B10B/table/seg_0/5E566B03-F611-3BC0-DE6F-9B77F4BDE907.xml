@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E566B03-F611-3BC0-DE6F-9B77F4BDE907" name="Clientes">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>6CC92260-0AAF-99DE-CDB1-3CCA1C6CB0B1</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RG" id="972E9A91-6BA5-A59D-E5BE-67743154F480">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>2B871497-5F39-ADDF-9D2A-AA3AD8EAD97F</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="6CD6E092-22A4-BD69-A666-2391D7DD76CD">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>E263004C-4EFB-D6F2-702F-8B4F7059316A</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="BEF703F4-1FB0-C94F-3B91-CA8DE2674B6F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>430F0003-2052-8ABB-9AA1-8FF32DBF3083</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="9BD041ED-2E9C-648E-AEA9-32BE0C564963">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<generatorID>32A747C1-E118-593F-5F78-AF287420B8DB</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_ID" id="481A4798-53B3-CB40-D529-E499D1CD22E7">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51E0DD4B-C067-71EC-F6C3-750E0E151DB3" name="Clientes_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:00:28 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="481A4798-53B3-CB40-D529-E499D1CD22E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

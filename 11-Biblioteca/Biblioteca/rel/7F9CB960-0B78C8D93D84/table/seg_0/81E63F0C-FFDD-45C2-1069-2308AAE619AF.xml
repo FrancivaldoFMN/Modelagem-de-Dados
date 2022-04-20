@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81E63F0C-FFDD-45C2-1069-2308AAE619AF" name="Categoria_Possui_Livros">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Categoria_Categoria_ID" id="EDD0E573-CD3E-C54F-44E5-70C8CC6028BB">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95FE1484-88AF-4D05-C8DF-6D473E1AECF6" referredColumn="45650878-0D2E-EC75-7707-679268107627"/>
+</associations>
+</Column>
+<Column name="Livros_Livros_ID" id="6294159A-C55C-1A52-65B8-6DB2D53F3D8F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="404CEC55-6B7C-E52E-A165-F451D559C3DC" referredColumn="08A83B89-7A6D-9EF8-178E-76BC264D3AA9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED0A9690-2F13-0336-6BBC-B8D36454AA1C" name="Categoria_Possui_Livros_PK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDD0E573-CD3E-C54F-44E5-70C8CC6028BB"/>
+<colUsage columnID="6294159A-C55C-1A52-65B8-6DB2D53F3D8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="636981B2-A778-654D-644B-9D03DC35FB10" name="Categoria_Possui_Livros_Categoria_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<generatorID>90B0E9FE-AAA2-7AB0-3EF1-D45B5DBB7C2E</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDD0E573-CD3E-C54F-44E5-70C8CC6028BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C95A105-4B0E-8793-F2FB-E26D9DBD9790" name="Categoria_Possui_Livros_Livros_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 03:11:33 UTC</createdTime>
+<generatorID>90B0E9FE-AAA2-7AB0-3EF1-D45B5DBB7C2E</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6294159A-C55C-1A52-65B8-6DB2D53F3D8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

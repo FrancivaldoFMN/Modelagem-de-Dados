@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E3B30B8-5397-673B-1E67-0BDBC5AC7687" name="Bebê">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:07:50 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Medico" id="DBCF327F-16F4-892B-8872-0ED173F3F675">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:08:21 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="3FDC2465-75EE-3FCF-ED70-7D6FAE10BE5D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:08:35 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mãe" id="4E45BD19-BD56-4F03-EA5D-3974EEEA313F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:08:45 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data Nascimento" id="CA040A53-5086-EFC0-3855-AA20D83F41DC">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:08:55 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Altura" id="D263EEDC-3EC6-B7EC-61FE-CC81974A3ABB">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:09:08 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Peso Nascimento" id="5BEE9810-268E-CBE1-ADE2-FEF8970D3B0C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:09:32 UTC</createdTime>
+<ownerDesignName>Bebe</ownerDesignName>
+<engineerTo>
+<item key="36AC3DCB-B558-F8DD-BC0A-34BDB563BB01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,4,4</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

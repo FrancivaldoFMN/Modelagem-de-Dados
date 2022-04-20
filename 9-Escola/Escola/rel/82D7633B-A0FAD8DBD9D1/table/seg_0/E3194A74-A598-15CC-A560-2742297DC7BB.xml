@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3194A74-A598-15CC-A560-2742297DC7BB" name="Turmas">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:48:09 UTC</createdTime>
+<generatorID>4ADD6176-C473-F49B-BE4C-DF65425AFBE9</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Escola_Escola_ID" id="009D43A2-C4F1-488F-3F0A-D9A4C4721931">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:48:09 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C68A5F0-3247-AFC2-A2E4-AAD92E87169B" referredColumn="BF97FBF4-3720-7437-91B0-E37600622A26"/>
+</associations>
+</Column>
+<Column name="Professores_Professores_ID" id="F0DCCBEE-3369-A273-935B-A11464D28E2C">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:48:09 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="704194A7-313B-6430-2F33-A1D3248AC1A6" referredColumn="B5B71367-CB72-3991-1636-05D7F2DB5F11"/>
+</associations>
+</Column>
+<Column name="Sala_Sala_ID" id="B0D04303-FD75-9DBB-FE9F-EFC26D506D59">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:48:09 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33B52A20-8904-FCE7-E8DF-2EAA8277F074" referredColumn="00628AE5-9DF3-1442-505D-EDD0B09BFC14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D75FD1FA-7A84-7AB1-FEF7-0862A8D97A4C" name="Turmas_Escola_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:48:09 UTC</createdTime>
+<generatorID>1433594A-5A09-044E-AB33-66BA40A4565C</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="009D43A2-C4F1-488F-3F0A-D9A4C4721931"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6AF8631-983D-A696-9C5D-D2FD63081A3D" name="Turmas_Professores_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:48:09 UTC</createdTime>
+<generatorID>729723AF-1B1F-22F4-AD91-E1CA866EC313</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0DCCBEE-3369-A273-935B-A11464D28E2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29A02F67-7D97-956E-1565-E7215C89F854" name="Turmas_Sala_FK">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 02:48:09 UTC</createdTime>
+<generatorID>437585AA-0A9D-3B39-5AA0-A809E1305E3E</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0D04303-FD75-9DBB-FE9F-EFC26D506D59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
