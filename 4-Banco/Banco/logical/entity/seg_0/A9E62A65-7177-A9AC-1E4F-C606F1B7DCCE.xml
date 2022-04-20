@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9E62A65-7177-A9AC-1E4F-C606F1B7DCCE" name="Cliente">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:04:58 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="3B5E7044-54DB-358F-628E-D871CAF9AE5F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:05:08 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="7D42B239-F70E-7447-FD14-B378AF11957E">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:05:17 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="06A76E3D-FA9E-FF99-D48A-729B9882999D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:05:35 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

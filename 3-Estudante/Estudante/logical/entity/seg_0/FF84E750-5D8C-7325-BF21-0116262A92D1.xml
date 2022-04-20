@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF84E750-5D8C-7325-BF21-0116262A92D1" name="Estudante">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:55:46 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="A6389D22-1DBE-0A00-9208-9E6FB1ED8480" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Primeiro Nome" id="108D3158-83FE-1E77-52AC-C56CA6A52E5E">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:56:04 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="A6389D22-1DBE-0A00-9208-9E6FB1ED8480" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ultimo Nome" id="3C59DAC8-51AD-766C-DBC1-C64A9D7C7D7A">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:56:22 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="A6389D22-1DBE-0A00-9208-9E6FB1ED8480" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="DFC8FECE-CFA5-8EBD-D57B-263A610283F7">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:56:43 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="A6389D22-1DBE-0A00-9208-9E6FB1ED8480" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rua" id="B5F106ED-E337-EE65-6726-2A8937C29275">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:57:06 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="A6389D22-1DBE-0A00-9208-9E6FB1ED8480" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="BC17F742-35A4-5AA1-3B89-C454AB7990FB">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:57:22 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="A6389D22-1DBE-0A00-9208-9E6FB1ED8480" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bairro" id="2BE60D3C-98B4-FAD1-E510-088C22BEBCC6">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:57:35 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="A6389D22-1DBE-0A00-9208-9E6FB1ED8480" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="B93C62F9-C1EC-DFFD-3DEB-1AD89AEF4E2E">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-19 23:57:49 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="A6389D22-1DBE-0A00-9208-9E6FB1ED8480" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4EFBD61-A255-581B-5040-ED6E334AA72E" name="Cliente">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>A9E62A65-7177-A9AC-1E4F-C606F1B7DCCE</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="986E85FE-3232-B6B5-B1F9-F141A9949747">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>3B5E7044-54DB-358F-628E-D871CAF9AE5F</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="BB784F29-8F3E-F953-B88E-49C4198FEDE8">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>7D42B239-F70E-7447-FD14-B378AF11957E</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="0DAB49B5-CFE1-1D0E-BF4B-0C9B8E60948D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>06A76E3D-FA9E-FF99-D48A-729B9882999D</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

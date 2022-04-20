@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B210904-5235-CA78-C27A-07DB69E46E67" name="Agencia Bancaria">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:06:17 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numero Agencia" id="3C8B9A36-8364-25B0-2B24-0948AC011AAE">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:06:31 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="F7B4D71B-D3AF-3E3C-34C1-84E54900549D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:06:46 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rua" id="41BAFF4F-2049-5862-EC3D-477442AAF977">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:07:07 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="BC9CA651-9014-895F-4735-3C567B83932D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:07:25 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bairro" id="86B383D1-CD3C-BBE3-4368-EC4AE5885CEA">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:07:44 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="CC7A5AA7-4CD3-0C29-553C-0B3817BC022B">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:07:56 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

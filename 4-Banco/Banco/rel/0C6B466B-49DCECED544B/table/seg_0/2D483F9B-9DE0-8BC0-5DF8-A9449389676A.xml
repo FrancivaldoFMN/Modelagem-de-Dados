@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D483F9B-9DE0-8BC0-5DF8-A9449389676A" name="Conta">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>21E13C93-56B1-47C3-FEC3-382DC290DE56</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numero" id="3FBCF30C-3FC1-92C4-498F-C7CBB472D9AA">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>0255EEC4-47F1-146D-7413-86C0BB5AF1D2</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="EED16AC9-C6C5-285B-D5C3-4033C6C999EF">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>852D1D72-1B8D-A808-DC8E-060BDF5282D3</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ttipo" id="64E6D634-011F-927B-0EE2-B2CFAC43D3F0">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>11D51FC0-D828-8E59-D9F7-076BD12607CA</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

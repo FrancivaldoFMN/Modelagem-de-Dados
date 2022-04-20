@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA23B54D-8D4E-C30F-A21A-6EDA99C8443B" name="Agencia_Bancaria">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>2B210904-5235-CA78-C27A-07DB69E46E67</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numero_Agencia" id="77978F0A-1E4F-D388-23AF-359C07CD69D5">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>3C8B9A36-8364-25B0-2B24-0948AC011AAE</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="34938455-C1B9-57E7-DDE7-C9B75D332B6F">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>F7B4D71B-D3AF-3E3C-34C1-84E54900549D</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rua" id="3F864237-26CE-0A9D-9E26-F9D241D7D97D">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>41BAFF4F-2049-5862-EC3D-477442AAF977</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="2F1791C1-5DB3-662A-1241-D8BB23AE3B82">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>BC9CA651-9014-895F-4735-3C567B83932D</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro" id="E1E20666-A161-B8F3-359E-81D0ADCC87CE">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>86B383D1-CD3C-BBE3-4368-EC4AE5885CEA</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="58ECEAB2-9CC2-014F-7818-3397BE716BD9">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:09:07 UTC</createdTime>
+<generatorID>CC7A5AA7-4CD3-0C29-553C-0B3817BC022B</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

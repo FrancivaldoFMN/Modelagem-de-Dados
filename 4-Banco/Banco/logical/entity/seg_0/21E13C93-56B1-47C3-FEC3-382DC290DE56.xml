@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21E13C93-56B1-47C3-FEC3-382DC290DE56" name="Conta">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:08:13 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numero" id="0255EEC4-47F1-146D-7413-86C0BB5AF1D2">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:08:19 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="852D1D72-1B8D-A808-DC8E-060BDF5282D3">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:08:28 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ttipo" id="11D51FC0-D828-8E59-D9F7-076BD12607CA">
+<createdBy>Francivaldo</createdBy>
+<createdTime>2022-04-20 00:08:40 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="0C6B466B-3099-5E7D-D70E-49DCECED544B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
